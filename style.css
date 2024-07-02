@@ -1,0 +1,74 @@
+/* STYLE SECTIONING TAGS */
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg");
+  background-size: cover;
+  
+
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  color: black;
+  text-shadow: -1px -1px 0 rgb(53, 156, 122), 1px -1px 0 rgb(53, 156, 122), -1px 1px 0 rgb(53, 156, 122), 1px 1px 0 rgb(53, 156, 122);
+}
+
+
+/* STYLE TEXT */
+h1 {
+  font-size: 3em;
+  text-align: center;
+  font-style: italic;
+  color:black;
+  text-shadow: -1px -1px 0 rgb(53, 156, 122), 1px -1px 0 rgb(53, 156, 122), -1px 1px 0 rgb(53, 156, 122), 1px 1px 0 rgb(53, 156, 122);
+
+}
+
+h2 {
+  margin-top: 2.5em; 
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+  font-size: 1.25em;
+}
+
+#result{
+  text-align:left;
+}
+/* STYLE FLEX CONTAINER */
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+}
+
+
+img {
+  border-radius : 5%;
+  border: 0.25em solid rgb(53, 156, 122);
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  width: 18.5em;
+  background-color: rgb(53, 156, 122);
+  color: black;
+}
+button:hover {
+  background-color:aquamarine;  }
+
